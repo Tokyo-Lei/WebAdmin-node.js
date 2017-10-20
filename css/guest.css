@@ -1,0 +1,125 @@
+/*强制所有圆形改为直角*/
+* {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+/*全局网页用微软雅黑*/
+blockquote p, #nav, table{
+    font-family: Microsoft YaHei;
+}
+#banner{
+  margin-top: 100px;
+}
+
+#nav{
+  font-size: 20px;
+
+}
+.page-header{
+    margin: 10px 0px 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 9px;
+}
+
+
+
+
+
+/*更正修改成功提示CSS颜色*/
+
+.has-success .checkbox, .has-success .checkbox-inline, .has-success .control-label, .has-success .help-block, .has-success .radio, .has-success .radio-inline, .has-success.checkbox label, .has-success.checkbox-inline label, .has-success.radio label, .has-success.radio-inline label {
+    color: #276F86;
+}
+
+.has-success .form-control {
+    border-color: #A9D5DE;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color:#F8FFFF;
+}
+
+
+.has-success .form-control:focus {
+    border-color: #A9D5DE;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #A9D5DE;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #A9D5DE;
+    background-color:#F8FFFF;
+}
+
+.has-success .form-control-feedback {
+    color: #A9D5DE;
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+    right: -18px;
+}
+
+
+
+@media (max-width: 800px) {
+
+    .form-horizontal .has-feedback .form-control-feedback {
+        right: 15px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+td,tr{
+  height: 50px;
+}
+.table > tbody > tr > td{
+line-height: 2.2em;
+
+}
+.table > thead > tr > th{
+border-bottom: 1px solid #DDD;
+}
+.table > thead > tr > th{
+line-height: 2;
+font-size: 15px;
+
+}
+
+
+
+.i_post-right {
+    float: right !important;
+    margin-right: 0px;
+    margin-top: -45px;
+}
+
+
+hr{
+	margin-bottom:5px;
+	
+	}
+.table a:link {
+	color: #333;
+	text-decoration: none;
+}
+.table a:visited {
+	color: #333;
+}
+.table a:hover {
+	color: #165ba8;
+}
+.table a:active {
+	color: #333;
+}	
+
+.table a:not(.btn), .table a:not(.btn){text-decoration: none;}
+
+

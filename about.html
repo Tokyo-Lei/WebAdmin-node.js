@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Node.js Admin</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/guest.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="../" class="navbar-brand">Node.js Admin</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">快速 <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="themes">
+                            <li><a href="../default/">撰写文章</a></li>
+                            <li class="divider"></li>
+                            <li><a href="../cerulean/">创建分类</a></li>
+                            <li><a href="../cosmo/">创建单页</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../help/">Help</a>
+                    </li>
+                    <li>
+                        <a href="http://news.bootswatch.com">Blog</a>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../help/">欢迎您：Admin 管理员</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">操作<span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="themes">
+                            <li><a href="../default/">修改密码</a></li>
+                            <li class="divider"></li>
+                            <li><a href="../cerulean/">管理留言</a></li>
+                            <li><a href="../cosmo/">安全退出</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" id="banner">
+
+    <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+
+            <div class="jumbotron">
+                <h2>您好！管理员。</h2>
+
+                <p>今天是星期五，服务器正常已经运行128天。</p>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="page-header">
+                        <h4><b>系统概览</small></b></h4>
+                    </div>
+                    <table class="table table-bordered">
+
+                        <tbody>
+                        <tr>
+                            <td><i class="fa fa-linux fa-1x"></i> 操作系统：Ubliunx 2.22</td>
+                            <td><i class="fa fa-folder-open-o fa-1x"></i> 当前文件路径：./usr/desop/nojdadmin/</td>
+                            <td><i class="fa fa-thermometer-2 fa-1x"></i> CPU温度：57.1C</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-jsfiddle fa-1x"></i> Node.js版本：3.0.1</td>
+                            <td><i class="fa fa-gg fa-1x"></i> Express版本：1.23</td>
+                            <td><i class="fa fa-server fa-1x"></i> Modules模块: 48</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-cloud fa-1x"></i> 硬盘容量：2TB</td>
+                            <td><i class="fa fa-microchip fa-1x"></i> 内存使用：12KB</td>
+                            <td><i class="fa fa-flash fa-1x"></i> 回滚数据：1234</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="page-header">
+                        <h4><b>数据统计</small></b></h4>
+                    </div>
+                    <table class="table table-bordered">
+
+                        <tbody>
+                        <tr>
+                            <td>文章：12篇</td>
+                            <td>草稿：13篇</td>
+                            <td>分类：9类</td>
+                        </tr>
+                        <tr>
+                            <td> 留言：12</td>
+                            <td> 单页：3页</td>
+                            <td> 用户：3042人8</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+        <!--/.col-xs-12.col-sm-9-->
+
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+            <div class="list-group">
+                <a href="#" class="list-group-item active">后台首页</a>
+                <a href="#" class="list-group-item">撰写文章</a>
+                <a href="#" class="list-group-item">创建分类</a>
+                <a href="#" class="list-group-item">创建单页</a>
+                <a href="#" class="list-group-item">用户管理</a>
+                <a href="#" class="list-group-item">文章管理</a>
+                <a href="#" class="list-group-item">分类管理</a>
+                <a href="#" class="list-group-item">单页管理</a>
+
+            </div>
+        </div>
+        <!--/.sidebar-offcanvas-->
+
+    </div>
+    <!--/row-->
+
+    <hr>
+
+    <footer>
+        <p>&copy; Company 2014</p>
+    </footer>
+
+</div>
+<!--/.container-->
+
+
+<!--[if lt IE 9]>
+<script src="javascript/html5shiv.min.js"></script>
+<script src="javascript/respond.min.js"></script>
+<![endif]-->
+
+<script src="javascript/jquery.min.js"></script>
+<script src="javascript/bootstrap.min.js"></script>
+</body>
+
+</html>
